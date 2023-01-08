@@ -1,0 +1,29 @@
+@import "../../assets/styles/variables.scss";
+.navList {
+    padding: 0px 0px 0px 20px;
+}
+.navList__item div {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    width: 20px;
+}
+.navList__item span {
+    transition: 1s all;
+}
+
+
+.navList__item {
+    margin: 41px 0px 0px 0px;
+    height: 20px;
+    font-family: 'montserrat';
+    list-style-type: none;
+    color: $color-grey;
+    cursor: pointer;
+}
+
+.navList__item:hover {
+    color: $color-green;
+}
+.iscurrent {
+    color: $color-green;
+}

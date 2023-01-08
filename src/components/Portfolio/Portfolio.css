@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.portfolio {
+  margin: 50px 0px 0px 0px;
+}
+
+.portfolio__header {
+  font-family: "montserrat";
+  color: #26C17E;
+  margin: 0px;
+}
+
+.portfolio__list {
+  list-style-type: none;
+  margin: 40px 0px 0px 0px;
+  padding: 0px;
+}
+
+.portfolio__list-item {
+  font-family: "montserrat";
+  display: inline-block;
+  color: #222935;
+  cursor: pointer;
+}
+
+.portfolio__list-item:hover {
+  color: #26C17E;
+}
+
+.grid {
+  margin: 20px 0px 0px 0px;
+  max-height: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.grid-item-code,
+.grid-item-ui {
+  position: relative;
+  margin: 0px 10px 0px 0px;
+}
+
+.grid-item-code .hidden,
+.grid-item-ui .hidden {
+  display: none;
+}
+
+.shown {
+  font-family: "montserrat";
+  overflow: hidden;
+  margin: 0px;
+  bottom: -26px;
+  height: 0px;
+  width: 308px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.843);
+  box-sizing: border-box;
+  position: absolute;
+  transition: 0.7s;
+  visibility: hidden;
+  font-size: 0px;
+  text-align: justify;
+}
+
+.shown h3 {
+  color: #26C17E;
+  margin: 0px 0px 10px 0px;
+}
+
+.grid-item-code:hover .shown {
+  height: 100%;
+  bottom: 4px;
+  padding: 15px;
+  visibility: visible;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.grid-item-ui:hover .shown {
+  height: 100%;
+  bottom: 4px;
+  padding: 15px;
+  visibility: visible;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.blacked {
+  color: #26C17E;
+  text-decoration: underline;
+}/*# sourceMappingURL=Portfolio.css.map */

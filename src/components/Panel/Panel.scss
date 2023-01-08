@@ -1,0 +1,18 @@
+@import "../../assets/styles/variables.scss";
+.navButton {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.navButton-collapsed {
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+}
+@media screen and (max-width: 600px) {
+    .navButton {
+        position: absolute;
+        bottom: 10px;
+        left: 8px;
+    }
+}

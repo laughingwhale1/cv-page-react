@@ -1,0 +1,32 @@
+@import "../../assets/styles/variables.scss";
+.homeButton,
+.homeButton a {
+	font-family: "montserrat";
+	background-color: $color-dark;
+	width: auto;
+	height: 40px;
+	border: none;
+    color: $color-white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-decoration: none;
+	text-align: center;
+	padding: 2px auto;
+	transition: 1s all;
+	animation: fontsizePlainChange 1s;
+}
+
+@keyframes fontsizePlainChange {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 16px;
+    }
+}
+.homeButton:hover,
+.homeButton:hover a {
+	transition: 1s all;
+	background-color: $color-green;
+}

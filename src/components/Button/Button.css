@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.homeButton,
+.homeButton a {
+  font-family: "montserrat";
+  background-color: #222935;
+  width: auto;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  text-align: center;
+  padding: 2px auto;
+  transition: 1s all;
+  -webkit-animation: fontsizePlainChange 1s;
+          animation: fontsizePlainChange 1s;
+}
+
+@-webkit-keyframes fontsizePlainChange {
+  from {
+    font-size: 0px;
+  }
+  to {
+    font-size: 16px;
+  }
+}
+
+@keyframes fontsizePlainChange {
+  from {
+    font-size: 0px;
+  }
+  to {
+    font-size: 16px;
+  }
+}
+.homeButton:hover,
+.homeButton:hover a {
+  transition: 1s all;
+  background-color: #26C17E;
+}/*# sourceMappingURL=Button.css.map */

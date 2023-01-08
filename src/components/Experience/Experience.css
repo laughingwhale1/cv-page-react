@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.exp {
+  margin: 50px 0px 0px 0px;
+}
+
+.exp__header {
+  font-family: "montserrat";
+  color: #26C17E;
+}
+
+.exp__section {
+  min-height: 85px;
+  display: grid;
+  grid-template-areas: "company positon";
+  grid-template-columns: 140px auto;
+}
+
+.exp__section-company p,
+.exp__section-company h3,
+.exp__section-position p,
+.exp__section-position h3 {
+  margin: 5px 0px 0px 0px;
+  color: #222935;
+  font-family: "montserrat";
+}
+
+.exp__section-company p {
+  color: #667081;
+}
+
+.exp__section-position p {
+  text-align: justify;
+}/*# sourceMappingURL=Experience.css.map */

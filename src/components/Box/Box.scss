@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables.scss';
+.box {
+    margin: 0px;
+    transition: 1.1s ease-in all;
+}
+.box__header {
+    font-family: 'montserrat';
+    margin: 0px;
+    color: $color-green;
+    font-size: 25px;
+}
+.box__paragraph {
+    font-family: 'montserrat';
+    margin: 40px 0 0 0 ;
+    /* overflow-wrap: break-word; */
+    text-align: justify;
+}

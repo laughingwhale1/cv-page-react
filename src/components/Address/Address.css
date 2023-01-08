@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.contacts__header {
+  font-family: "montserrat";
+  color: #26C17E;
+  margin: 100px 0px 45px 0px;
+}
+
+.contacts__section ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.contacts__section ul li {
+  margin-bottom: 25px;
+}
+
+.contacts__section ul li svg {
+  color: #26C17E;
+  width: 28px;
+  height: 28px;
+  margin: 0px 20px 0px 0px;
+}
+
+.contacts__section ul li a {
+  font-family: "montserrat";
+  text-decoration: none;
+  width: 28px;
+  height: 28px;
+  margin: 0px 0px 0px 0px;
+}
+
+.contacts__section ul li a:link {
+  color: #222935;
+}
+
+.contacts__section ul li a:visited {
+  color: #222935;
+}/*# sourceMappingURL=Address.css.map */

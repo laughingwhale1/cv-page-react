@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.feedback {
+  margin: 100px 0px 39px 0px;
+}
+.feedback__header {
+  margin: 0px 0px 39px 0px;
+  color: #26C17E;
+  font-family: "montserrat";
+}
+.feedback__testimonial {
+  font-family: "montserrat";
+  padding: 15px;
+  background-color: #EEEEEE;
+  text-align: justify;
+  margin: 0px 0px 18px 0px;
+}
+.feedback__user {
+  display: inline;
+  margin: 0px 20px 0px 0px;
+}
+.feedback__user-info {
+  font-family: "montserrat";
+}
+.feedback__user-info-cite:link, .feedback user-info-cite:visited {
+  text-decoration: none;
+  color: #26C17E;
+}
+.feedback__user-info-cite:visited {
+  text-decoration: none;
+  color: #26C17E;
+}/*# sourceMappingURL=Feedback.css.map */

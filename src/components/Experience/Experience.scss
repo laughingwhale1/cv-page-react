@@ -1,0 +1,32 @@
+@import "../../assets/styles/variables.scss";
+.exp {
+	margin: 50px 0px 0px 0px;
+}
+.exp__header {
+	font-family: "montserrat";
+	color: $color-green;
+}
+.exp__section {
+	min-height: 85px;
+	display: grid;
+	grid-template-areas: "company positon";
+	grid-template-columns: 140px auto;
+}
+.exp__section-company {
+}
+.exp__section-position {
+}
+.exp__section-company p,
+.exp__section-company h3,
+.exp__section-position p,
+.exp__section-position h3 {
+	margin: 5px 0px 0px 0px;
+    color: $color-dark;
+    font-family: "montserrat";
+}
+.exp__section-company p {
+	color: $color-grey;
+}
+.exp__section-position p {
+	text-align: justify;
+}

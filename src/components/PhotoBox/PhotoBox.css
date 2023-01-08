@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.photoBox {
+  text-align: center;
+}
+.photoBox figure {
+  margin: 20px 0px 0px 0px;
+}
+
+.photoBox__avatar {
+  background-size: cover;
+  background-position: center;
+  border: 1px white solid;
+  border-radius: 50%;
+  width: 163px;
+  height: 163px;
+  transition: 1s ease-in all;
+}
+
+.photoBox__avatar2 {
+  background-size: cover;
+  background-position: center;
+  border: 1px white solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 1s ease-in all;
+}
+
+@media screen and (max-width: 600px) {
+  .photoBox__avatar {
+    background-size: cover;
+    background-position: center;
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+}
+.photoBox__name {
+  font-family: "montserrat";
+  color: white;
+}
+
+.photoBox__name2 {
+  font-family: "montserrat";
+  color: white;
+  transition: 1s all;
+}
+
+.photoBox__title {
+  font-family: "montserrat";
+  color: white;
+}
+
+.photoBox__description {
+  font-family: "montserrat";
+  color: white;
+}/*# sourceMappingURL=PhotoBox.css.map */

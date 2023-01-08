@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.form {
+  margin: 0px;
+}
+.form__label {
+  margin: 10px 20px 0px 15px;
+  font-family: "montserrat";
+}
+.form__input {
+  margin: 10px 20px 0px 15px;
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #667081;
+  padding-left: 15px;
+}
+.form .errorMsg {
+  margin: 0px 0px 0px 15px;
+  color: red;
+}
+
+.skillBox__form-submit-button {
+  margin: 20px 0px 20px 15px;
+  width: 80px;
+}
+
+.skillBox {
+  margin: 50px 0px 0px 0px;
+  position: relative;
+}
+.skillBox__header {
+  font-family: "montserrat";
+  color: #26C17E;
+  margin: 0px 0px 50px 0px;
+  display: inline;
+}
+.skillBox__form {
+  position: relative;
+  border: 1px #26C17E solid;
+  margin: 50px 0px 20px 0px;
+  -webkit-animation: plainForm 1s;
+          animation: plainForm 1s;
+  overflow: hidden;
+}
+.skillBox__section {
+  margin: 50px 0px 0px 0px;
+}
+.skillBox__editBtn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.skillBox .form-hidden {
+  display: none;
+}
+.skillBox .skill {
+  margin: 0px 0px 5px 0px;
+  background-color: #26C17E;
+  color: white;
+  font-family: "montserrat";
+  height: 30px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes plainForm {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 200px;
+  }
+}
+
+@keyframes plainForm {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 200px;
+  }
+}
+.scale {
+  margin: 25px 0px 0px 0px;
+  border: 1px solid #667081;
+  height: 1px;
+  background-color: #667081;
+  position: relative;
+}
+
+.beginner {
+  position: absolute;
+  bottom: 0px;
+  border: 1px solid #667081;
+  width: 1px;
+  height: 10px;
+  background-color: #667081;
+}
+
+.beginner p {
+  font-family: "montserrat";
+  color: #667081;
+}
+
+.proficient {
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+  border: 1px solid #667081;
+  width: 1px;
+  height: 10px;
+  background-color: #667081;
+  margin: 0px 150px 0px 0px;
+}
+
+.proficient p {
+  font-family: "montserrat";
+  position: absolute;
+  color: #667081;
+  left: -30px;
+}
+
+.expert {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+  border: 1px solid #667081;
+  width: 1px;
+  height: 10px;
+  background-color: #667081;
+}
+
+.expert p {
+  font-family: "montserrat";
+  color: #667081;
+  position: absolute;
+  right: -23px;
+}
+
+.master {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 1px solid #667081;
+  width: 1px;
+  height: 10px;
+  background-color: #667081;
+}
+
+.master p {
+  font-family: "montserrat";
+  position: absolute;
+  right: 0px;
+  color: #667081;
+}/*# sourceMappingURL=Skills.css.map */

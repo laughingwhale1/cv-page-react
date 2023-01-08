@@ -1,0 +1,84 @@
+@import "../../assets/styles/variables.scss";
+.portfolio {
+	margin: 50px 0px 0px 0px;
+}
+.portfolio__header {
+    font-family: 'montserrat';
+	color: $color-green;
+	margin: 0px;
+}
+.portfolio__list {
+	list-style-type: none;
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+}
+.portfolio__list-item {
+    font-family: 'montserrat';
+	display: inline-block;
+	color: $color-dark;
+	cursor: pointer;
+}
+.portfolio__list-item:hover {
+	color: $color-green;
+}
+.grid {
+	margin: 20px 0px 0px 0px;
+	max-height: 900px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.grid-item-code,
+.grid-item-ui {
+	position: relative;
+	margin: 0px 10px 0px 0px;
+}
+.grid-item-code .hidden,
+.grid-item-ui .hidden {
+	display: none;
+}
+
+.shown {
+    font-family: 'montserrat';
+    overflow: hidden;
+    margin: 0px;
+	bottom: -26px;
+	height: 0px;
+	width: 308px;
+    padding: 15px;
+	background-color: rgba(255, 255, 255, 0.843);
+	box-sizing: border-box;
+	position: absolute;
+	transition: .7s;
+    visibility: hidden;
+    font-size: 0px;
+    text-align: justify;
+}
+.shown h3 {
+    color: $color-green;
+    margin: 0px 0px 10px 0px;
+}
+.grid-item-code:hover .shown {
+    height: 100%;
+    bottom: 4px;
+    padding: 15px;
+    visibility: visible;
+    font-size: 14px;
+    overflow: hidden;
+}
+.grid-item-ui:hover .shown {
+    height: 100%;
+    bottom: 4px;
+    padding: 15px;
+    visibility: visible;
+    font-size: 14px;
+    overflow: hidden;
+}
+.hidden {
+    display: none;
+}
+.blacked {
+	color: $color-green;
+	text-decoration: underline;
+}

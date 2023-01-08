@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.icon {
+  height: 50vh;
+  text-align: center;
+}
+.icon-rotate {
+  margin: 25vh auto;
+  color: #26C17E;
+  -webkit-animation: infinite rotation 1s;
+          animation: infinite rotation 1s;
+  font-size: 25px;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.timeLine {
+  max-height: 50vh;
+}
+
+.timeline__section {
+  overflow: auto;
+  max-height: 50vh;
+}
+
+.timeLineBox__header {
+  font-family: "montserrat";
+  color: #26C17E;
+  margin: 50px 0px 0px 0px;
+}
+
+.timeLineBox__section {
+  display: grid;
+  grid-template-areas: "time line";
+  grid-template-columns: 1fr 13fr;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0px 0px 0px;
+  max-height: 20vh;
+  height: 150px;
+}
+
+.timeLineBox__section-time {
+  width: 50px;
+  margin-right: 15px;
+  text-align: center;
+  transform: translateY(15px);
+}
+
+.timeLineBox__section-time-date {
+  font-family: "montserrat";
+  margin: 0px auto 15px;
+}
+
+.timeLineBox__section-time div {
+  margin: auto;
+}
+
+.timeLineBox__section-article {
+  position: relative;
+  padding: 15px;
+  background-color: #EEEEEE;
+}
+
+.timeLineBox__section-article-title {
+  font-family: "montserrat";
+  margin: 0px;
+}
+
+.timeLineBox__section-article-paragraph {
+  font-family: "montserrat";
+  margin: 5px 0px 0px 0px;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  height: 10vh;
+  width: 5px;
+  background-color: #26C17E;
+}
+
+.triangle {
+  position: absolute;
+  transform: rotate(-90deg) translateY(-30px);
+  color: #EEEEEE;
+}/*# sourceMappingURL=Timeline.css.map */

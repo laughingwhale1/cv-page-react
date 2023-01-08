@@ -1,0 +1,197 @@
+@import "../../assets/styles/variables.scss";
+.parent {
+	max-height: max-content;
+	max-width: 100vw;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-areas: "nav content";
+	grid-template-rows: auto;
+	grid-template-columns: auto 1fr;
+	transition: 1s all;
+}
+.parent2 {
+	max-height: max-content;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-areas: "nav content";
+	grid-template-rows: auto;
+	grid-template-columns: 55px 1fr;
+	animation: plain 1s ease-in;
+}
+@keyframes plain {
+	from {
+		grid-template-columns: 200px 1fr;
+	}
+	to {
+		grid-template-columns: 55px 1fr;
+	}
+}
+.parent__navigation {
+	grid-area: nav;
+	min-width: 200px;
+	width: 200px;
+	height: 100vh;
+	background-color: $color-dark;
+	// position: fixed;
+	position: relative;
+	transition: 1s ease-in all;
+}
+.parent__navigation2 {
+	grid-area: nav;
+	min-width: 55px;
+	width: 55px;
+	background-color: $color-dark;
+	position: relative;
+	transition: 1s ease-in all;
+}
+.parent__navigation-panel {
+	background-color: $color-dark;
+	min-width: 200px;
+	width: 200px;
+	height: 100vh;
+	position: fixed;
+	transition: 1s ease-in all;
+}
+.parent__navigation-panel2 {
+	background-color: $color-dark;
+	min-width: 55px;
+	width: 55px;
+	height: 100vh;
+	position: fixed;
+	transition: 1s ease-in all;
+	
+}
+.parent__navigation-panel2 span,.parent__navigation-panel2 h3 {
+	font-size: 0px;
+	animation: plainTextChange 1s;
+}
+@keyframes plainTextChange {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 0px;
+    }
+}
+.parent__content {
+	grid-area: content;
+	padding: 40px 30px;
+	transition: 1s ease-in all;
+}
+.navButton-collapsed {
+	font-family: "montserrat";
+	background-color: $color-dark;
+	width: auto;
+	height: 40px;
+	border: none;
+    color: $color-white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-decoration: none;
+	transition: 1s ease-in all;
+	// text-align: center;
+	// padding: 2px auto;
+	& span {
+		font-size: 0px;
+	}
+	&:hover {
+		background-color: $color-green;
+	}
+}
+.buttonUp {
+	position: absolute;
+	right: 40px;
+}
+.hideButton {
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+	background-color: $color-dark;
+	position: absolute;
+	right: -28px;
+	top: 27px;
+	// transform: translateX(-32px) translateY(-13px);
+	border-radius: 2px;
+	cursor: pointer;
+	// position: fixed;
+	transition: 1s ease-in all;
+	&__hyphen {
+		margin: 3px auto 0px;
+		width: 15px;
+		height: 2px;
+		border-radius: 5px;
+		background-color: $color-white;
+	}
+	&:hover &__hyphen {
+		background-color: $color-green;
+	}
+	&__hyphen:nth-child(1) {
+		margin: 8px auto 0px;
+		width: 15px;
+		height: 2px;
+		border-radius: 5px;
+		background-color: $color-white;
+		}
+}
+@media screen and (max-width: 600px) {
+	.parent {
+		max-height: max-content;
+		box-sizing: border-box;
+		display: grid;
+		grid-template-areas: "nav content";
+		grid-template-rows: auto;
+		grid-template-columns: 55px 1fr;
+		animation: plain 1s ease-in;
+	}
+	.parent__navigation {
+		grid-area: nav;
+		min-width: 55px;
+		width: 55px;
+		background-color: $color-dark;
+		position: relative;
+		transition: 1s ease-in all;
+	}
+	.parent__navigation-panel {
+		background-color: $color-dark;
+		min-width: 55px;
+		width: 55px;
+		height: 100vh;
+		position: fixed;
+		transition: 1s ease-in all;
+	}
+	.navButton {
+		font-family: "montserrat";
+		background-color: $color-dark;
+		width: auto;
+		height: 40px;
+		border: none;
+		color: $color-white;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: 0.5s;
+		text-decoration: none;
+		transition: 1s ease-in all;
+		// text-align: center;
+		// padding: 2px auto;
+		& span {
+			transition: 1s all;
+			font-size: 0px;
+		}
+		&:hover {
+			background-color: $color-green;
+		}
+	}
+	.parent__navigation-panel span,.parent__navigation-panel h3 {
+		font-size: 0px;
+		animation: plainTextChange 1s;
+	}
+	@keyframes plainTextChange {
+		from {
+			font-size: 16px;
+		}
+		to {
+			font-size: 0px;
+		}
+	}
+}

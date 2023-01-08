@@ -1,0 +1,32 @@
+@import '../../assets/styles/variables.scss';
+
+.feedback {
+    margin: 100px 0px 39px 0px;
+    &__header {
+        margin: 0px 0px 39px 0px;
+        color: $color-green;
+        font-family: 'montserrat';
+    }
+    &__testimonial {
+        font-family: 'montserrat';
+        padding: 15px;
+        background-color: #EEEEEE;
+        text-align: justify;
+        margin: 0px 0px 18px 0px;
+    }
+    &__user {
+        display: inline;
+        margin: 0px 20px 0px 0px;
+    }
+    &__user-info {
+        font-family: 'montserrat';
+    }
+    &__user-info-cite:link, user-info-cite:visited {
+        text-decoration: none;
+        color: $color-green;
+    }
+    &__user-info-cite:visited {
+        text-decoration: none;
+        color: $color-green;
+    }
+}

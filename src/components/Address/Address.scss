@@ -1,0 +1,32 @@
+@import '../../assets/styles/variables.scss';
+.contacts__header {
+    font-family: 'montserrat';
+    color: $color-green;
+    margin: 100px 0px 45px 0px;
+}
+.contacts__section ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.contacts__section ul li {
+    margin-bottom: 25px;
+}
+.contacts__section ul li svg{
+    color: $color-green;
+    width: 28px;
+    height: 28px;
+    margin: 0px 20px 0px 0px;
+}
+.contacts__section ul li a{
+    font-family: 'montserrat';
+    text-decoration: none;
+    width: 28px;
+    height: 28px;
+    margin: 0px 0px 0px 0px;
+}
+.contacts__section ul li a:link{
+    color: $color-dark;
+}
+.contacts__section ul li a:visited{
+    color: $color-dark;
+}

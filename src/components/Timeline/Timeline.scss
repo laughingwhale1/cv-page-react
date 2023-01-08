@@ -1,0 +1,80 @@
+@import "../../assets/styles/variables.scss";
+.icon {
+    height: 50vh;
+    text-align: center;
+    &-rotate {
+        margin: 25vh auto;
+        color: $color-green;
+        animation: infinite rotation 1s;
+        font-size: 25px;
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+.timeLine {
+    // overflow: auto;
+    max-height: 50vh;
+}
+.timeline__section {
+    overflow: auto;
+    max-height: 50vh;
+}
+.timeLineBox__header {
+    font-family: 'montserrat';
+    color: $color-green;
+    margin: 50px 0px 0px 0px;
+}
+.timeLineBox__section {
+    display: grid;
+    grid-template-areas: 'time line';
+    grid-template-columns: 1fr 13fr;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px;
+    max-height: 20vh;
+    height: 150px;
+}
+.timeLineBox__section-time {
+    width: 50px;
+    margin-right: 15px;
+    text-align: center;
+    transform: translateY(15px);
+}
+.timeLineBox__section-time-date {
+    font-family: 'montserrat';
+    margin: 0px auto 15px;
+}
+.timeLineBox__section-time div {
+    margin: auto;
+}
+.timeLineBox__section-article {
+    position: relative;
+    padding: 15px;
+    background-color: #EEEEEE;
+}
+.timeLineBox__section-article-title{
+    font-family: 'montserrat';
+    margin: 0px;
+}
+.timeLineBox__section-article-paragraph {
+    font-family: 'montserrat';
+    margin: 5px 0px 0px 0px;
+}
+.line {
+    position: absolute;
+    left: 50%;
+    height: 10vh;
+    width: 5px;
+    background-color: $color-green;
+}
+.triangle {
+    position: absolute;
+    transform: rotate(-90deg) translateY(-30px);
+    color: #EEEEEE;
+}
