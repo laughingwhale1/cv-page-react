@@ -13,3 +13,4 @@ Client side is built with using:
 ###### ✔️ Husky for pre-push testing 
 ###### ✔️ Redux thunk as a middleware for async actions
 ###### ✔️ Jest for testing 
+###### ✔️ Responsive
